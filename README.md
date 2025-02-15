@@ -60,24 +60,6 @@
    - Add **User Accounts, Groups, and Group Policies (GPOs)**.
    - Implement **Role-Based Access Control (RBAC)** and security policies.
 
-### 7. **Backup and Disaster Recovery**
-   - Enable **Azure Backup** for domain controllers.
-   - Configure **System State Backups** to recover AD if needed.
-
-### 8. **Monitoring and Maintenance**
-   - Enable **Azure Monitor** and set up alerts for Active Directory health.
-   - Regularly review **Event Logs** for security and operational issues.
-   - Perform periodic **Active Directory health checks** (`dcdiag`, `repadmin`).
-
----
-
-## Additional Considerations
-- **High Availability:** Deploy domain controllers in different **Availability Zones**.
-- **Hybrid Identity:** Implement **Azure AD Connect** to sync with Azure AD.
-- **Security Hardening:** Implement **Privileged Access Workstations (PAWs)** and **Conditional Access Policies**.
-- **Logging and Auditing:** Enable **Azure Sentinel** or SIEM integration for security monitoring.
-
----
 
 ## Conclusion
 This guide outlines the deployment of an **On-Premises Active Directory** environment in Azure, providing scalability, security, and hybrid integration options. By leveraging Azure infrastructure, organizations can extend their traditional AD setup into the cloud while maintaining control over identity and access management.
